@@ -1,0 +1,263 @@
+body{
+    font-family:"Arial", Georgia, "Times New Roman", Times, serif;
+}
+
+.button{
+    font-family:"Arial", Georgia, "Times New Roman", Times, serif;
+}
+
+iframe{
+    display: none;
+}
+
+a{
+    color: #339933;
+        text-decoration: underline;
+
+
+
+}
+
+#col {
+  column-count: 2;
+}
+
+.ivu-steps-icon .ivu-icon{
+    color:teal;
+}
+#menus{
+    position: absolute;
+    width: 100%;
+    padding-top:-80px;
+}
+
+#menus ul li{
+    display: inline-block;
+    margin-left: 4%;
+    font-size: calc(1.4vh + 1vh);
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+#bar{
+
+
+    padding:19px;
+    background:#F5F5F5;
+}
+
+#barh{
+    padding:0;
+    margin:0;
+height:60px;
+}
+
+#menu_ ul li{
+    display:inline-block;
+    margin:0;
+
+
+
+}
+
+#menu_ li{
+    color:white;
+    background:#007D8F;;
+    padding:2.6%;
+  float: right;
+text-transform: uppercase;
+font-weight: 100;
+
+
+}
+
+.primary{
+    color: #007D8F;
+}
+
+.le{
+    color: #007D8F;
+}
+
+#le{
+    color: #007D8F;
+}
+
+
+#bar li:hover{
+
+
+    color:#007D8F;
+    cursor: pointer;
+}
+
+
+#btn{
+    background: #3a913f;
+    color:white;
+    font-size:16px;
+    padding:10px;
+    border-radius: 50px;
+    width: 180px;
+    height: 48px;
+}
+#btn_valid{
+    background-color: rgb(29, 163, 95);
+    background-image: linear-gradient(rgb(29, 163, 95), rgb(27, 154, 90));
+    color:white;
+    font-size:25px;
+    font-weight: bold;
+    padding:13px;
+    border-radius: 5px;
+    width: 180px;
+    height: 68px;
+    background: #959595;
+}
+#btn_valid:hover{
+    background-color: #2e7432;
+    background-image: #008000;
+    color:white;
+    font-size:16px;
+    padding:13px;
+    border-radius: 5px;
+    width: 180px;
+    height: 58px;
+}
+
+.accesClient .credito-subnav {
+    display: block;
+    margin: 0 auto;
+    width: 199px;
+    height: 265px;
+    line-height: 372px;
+    
+}
+
+input[type=checkbox] {
+
+width: 45px;
+height: 15px;
+background: #555;
+margin-left: 10px;
+position: left;
+border-radius: 5px;
+
+}
+
+input{
+    width:100%;
+    padding:13px;
+    outline: none;
+    background:white;
+    border-radius: 6px;
+    text-indent: 5px;
+    border: 0px solid transparent;
+}
+
+#cc input{
+    color: #525252;
+    font-weight: 500;
+    width:100%;
+    margin-top: 7px;
+    padding:13px;
+    outline: none;
+    background:white;
+    border-radius: 6px;
+    text-indent: 5px;
+    border: 1px solid #ccc;
+}
+
+#cc input:focus{
+    width:100%;
+    padding:13px;
+    outline: none;
+    background:white;
+    border-radius: 6px;
+    text-indent: 5px;
+    border: 1px solid red;
+}
+
+
+::placeholder{
+    font-style: oblique;
+}
+
+#claver{
+    padding:0;
+
+}
+
+
+#claver tr td {
+
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    width:45px;
+    height:60px;
+    background:#339933;
+    border-radius: 5px;
+
+}
+
+
+
+table{
+    padding:0;
+
+
+}
+.uk-child-width-1-2 > *
+{
+  height: 60px;
+
+}
+
+@media screen and (max-width: 720px) {
+  #btn_right_1 {
+     display: none;
+  }
+  #bars_right {
+     display: normal;
+     color: green;
+  }
+  #search_right {
+     display: normal;
+  }
+}
+@media screen and (min-width: 720px) {
+  #bars_right {
+     display: none;
+  }
+  #search_right {
+     display: none;
+  }
+}
+@media screen and (max-width: 1129px) {
+  #text_logo {
+     display: none;
+  }
+}
+#menu_2 ul li{
+    display:inline-block;
+    margin-top: 40px;
+    padding-right: 25px;}
+
+
+.mainNav .connectionContainer .subConnection>li .formIdentification .title.identification:before {
+    background-image: url(https://png.pngtree.com/png-vector/20191110/ourlarge/pngtree-avatar-icon-profile-icon-member-login-vector-isolated-png-image_1978396.jpg);
+    background-position: -40px 0px;
+    width: 40px;
+    height: 32px;
+}
+
+
+
+
+
+ label {
+        display: none;
+        padding-left: 15px;
+        text-indent: -15px;
+
+      }
